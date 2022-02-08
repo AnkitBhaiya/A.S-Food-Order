@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="271dp"
+        android:layout_height="265dp"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="100sp"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:gravity="center"
+        android:text="A.S Food Delivery"
+        android:textColor="@color/white"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="40sp" />
+</LinearLayout>
